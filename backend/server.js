@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const connectDB = require('./config/database');
-const errorHandler = require('./middleware/errorHandler');
+const connectDB = require('/config/database');
+const errorHandler = require('./middlewares/errorHandler');
 const logger = require('./utils/logger');
 
 // Inicializar Express
